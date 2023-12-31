@@ -48,9 +48,10 @@ public class Crosshair {
 		frame.getRootPane().putClientProperty("apple.awt.draggableWindowBackground", false);
 		
 		Icon icon;
-		// niko v3 crosshair - good
 		
-		icon = new ImageIcon("C:\\Users\\justi\\eclipse-workspace\\JustinProgram\\image\\valorant crosshair 1.png");
+
+		String fileName = "";
+		icon = new ImageIcon(fileName);
 		JLabel lblNewLabel = new JLabel(icon);
 		lblNewLabel.setBounds(0, 0, 2560, 1440);
 		frame.getContentPane().add(lblNewLabel);
